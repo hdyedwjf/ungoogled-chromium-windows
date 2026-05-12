@@ -34,8 +34,8 @@ index b191cc72dd789..a990fce15aafb 100644
      # We use clang-rt sanitizer runtimes.
      "-Zexternal-clangrt",
 +
-+     "-Ctarget-cpu=x86-64-v3",
-+     "-Ztune-cpu=skylake-avx512",
++     "-Ctarget-cpu=x86-64-v4",
++     "-Ztune-cpu=znver4",
 +     "-Cllvm-args=-fp-contract=fast",
    ]
  
